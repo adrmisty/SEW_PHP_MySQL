@@ -1,1 +1,102 @@
 
+
+<!DOCTYPE HTML>
+<html lang="es">
+
+<!-- Datos que describen el documento -->
+<head>
+    <meta charset="UTF-8" />
+    <title>MySQL: gestión de BD</title>
+    <meta name="author" content="Adriana Rodríguez Flórez, UO282798" />
+    <meta name="description" content="Gestión de una base de datos con MySQL" />
+    <meta name="keywords" content="mysql,sql,base,datos,bd,gestion,servidor" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    
+ <!-- Incluir el código PHP que especifica la BD -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>MySQL</h1>
+        <h2>Gestión de base de datos de Pruebas de Usabilidad</h2>
+    </header>
+    
+    <fieldset>
+            <legend>Gestión de la BD</legend>
+            <nav>
+            <a title="Inicio"
+                    tabindex="1"
+                    accesskey="h"
+                    href="index.html">
+                Inicio | </a>
+
+            <a title="Insertar datos en la tabla"
+                    tabindex="2"
+                    accesskey="i"
+                    href="insertar.html">
+                Insertar datos | </a>
+
+            <a title="Buscar datos en la tabla"
+                    tabindex="3"
+                    accesskey="b"
+                    href="buscar.html">
+                Buscar datos | </a>
+
+            <a title="Modificar datos en la tabla"
+                    tabindex="4"
+                    accesskey="m"
+                    href="modificar.html">
+                Modificar datos | </a>
+
+            <a title="Eliminar datos de la tabla"
+                    tabindex="5"
+                    accesskey="e"
+                    href="borrar.html">
+                Eliminar datos | </a>
+            
+            <a title="Generación de informe de datos"
+                    tabindex="6"
+                    accesskey="f"
+                    href="informe.html">
+                Generar informe | </a>
+     
+            <a title="Importar/Exportar en formato CSV"
+                    tabindex="7"
+                    accesskey="v"
+                    href="csv.html">
+                Importar/Exportar CSV | </a>
+
+            </nav>
+        </fieldset>
+
+
+    <form action='#' method='post' name='menu'>
+        <h3>Comandos básicos</h3>
+
+        <fieldset>
+            <legend>Creación de elementos:</legend>
+            <input type="submit" name = "crearBD" value="Crear base de datos 'Usabilidad'" />
+            <section>
+                <h4>Estado de la BD:</h4>
+                <p>Conexión establecida con: localhost via TCP/IP</p><p>Base de datos 'Usabilidad' creada con éxito</p>            </section>
+            <input type="submit" name = "crearTabla" value="Crear una tabla" />
+            <section>
+                <h4>Estado de la tabla 'PruebasUsabilidad':</h4>
+                <p>Tabla 'PruebasUsabilidad' creada con éxito</p>            </section>
+
+        </fieldset>
+    </form>
+
+
+
+    <footer>
+        <p>Software y Estándares para la Web</p>
+        <p>Grado en Ingeniería Informática del Software (Universidad de Oviedo)</p>
+        <address>
+            <p>Contacto: 
+            <a href="mailto:UO282798@uniovi.es">Adriana Rodríguez Flórez (UO282798@uniovi.es)</a></p>
+        </address>
+    </footer>
+</body>
