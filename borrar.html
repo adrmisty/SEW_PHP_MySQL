@@ -1,0 +1,102 @@
+
+<!DOCTYPE HTML>
+<html lang="es">
+
+<!-- Datos que describen el documento -->
+<head>
+    <meta charset="UTF-8" />
+    <title>MySQL: gestión de BD</title>
+    <meta name="author" content="Adriana Rodríguez Flórez, UO282798" />
+    <meta name="description" content="Gestión de una base de datos con MySQL (búsqueda de información)" />
+    <meta name="keywords" content="mysql,sql,base,datos,bd,gestion,servidor,busqueda,informacion" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    
+ <!-- Incluir el código PHP que especifica la BD -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>MySQL</h1>
+        <h2>Gestión de base de datos de Pruebas de Usabilidad</h2>
+    </header>
+    
+    <fieldset>
+            <legend>Gestión de la BD</legend>
+            <nav>
+            <a title="Inicio"
+                    tabindex="1"
+                    accesskey="h"
+                    href="index.html">
+                Inicio | </a>
+
+            <a title="Insertar datos en la tabla"
+                    tabindex="2"
+                    accesskey="i"
+                    href="insertar.html">
+                Insertar datos | </a>
+
+            <a title="Buscar datos en la tabla"
+                    tabindex="3"
+                    accesskey="b"
+                    href="buscar.html">
+                Buscar datos | </a>
+
+            <a title="Modificar datos en la tabla"
+                    tabindex="4"
+                    accesskey="m"
+                    href="modificar.html">
+                Modificar datos | </a>
+
+            <a title="Eliminar datos de la tabla"
+                    tabindex="5"
+                    accesskey="e"
+                    href="borrar.html">
+                Eliminar datos | </a>
+            
+            <a title="Generación de informe de datos"
+                    tabindex="6"
+                    accesskey="f"
+                    href="informe.html">
+                Generar informe | </a>
+     
+            <a title="Importar/Exportar en formato CSV"
+                    tabindex="7"
+                    accesskey="v"
+                    href="csv.html">
+                Importar/Exportar CSV | </a>
+
+            </nav>
+        </fieldset>
+
+    <form method="post" action="#" name="buscar" >
+        <fieldset>
+        <h3>Borrado de datos en la tabla 'PruebasUsabilidad' </h3>
+                <p>
+                    <label for="borrarDNI">Introduzca el DNI del participante a eliminar: </label>  
+                    <input id="borrarDNI" name="borrarDNI" type="text" maxlength="9" placeholder="DNI..." required />
+                </p>
+
+                <input type="submit" name="borrar" value="borrar" />
+
+        </fieldset>
+    </form>
+
+    <fieldset>
+    <section>
+        <h4>Resultado del borrado: </h4>
+            <p>Todavía no ha realizado una búsqueda.</p>        </section>
+    </fieldset>
+
+    <footer>
+        <p>Software y Estándares para la Web</p>
+        <p>Grado en Ingeniería Informática del Software (Universidad de Oviedo)</p>
+        <address>
+            <p>Contacto: 
+            <a href="mailto:UO282798@uniovi.es">Adriana Rodríguez Flórez (UO282798@uniovi.es)</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>
