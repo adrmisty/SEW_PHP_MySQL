@@ -1,0 +1,101 @@
+/****************************************
+    Adriana Rodríguez Flórez - UO282798 
+        Descripción de los estilos
+*****************************************/
+  
+/* ---------------- HEADER ---------------- */
+/* Especificidad: 001 */
+body {
+  background-color: #ffdfb9;
+  color: #000000;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Especificidad: 001 */
+form {
+  display:grid;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Especificidad: 011 */
+input[type='submit']{
+  background-color: #d6eae3;
+  color: #000000;
+  font-size: 1.2em;
+  width: 15em;
+}
+/* Especificidad: 001 */
+label {
+  padding: 1.5em;
+}
+
+
+  /* ---------------- HEADER ---------------- */
+  /* Especificidad: 001 */
+  header {
+    border:double;
+    border-width: 1em;
+    border-color: #ffdfb9;
+    font-weight: bold;
+    color: #000000;
+    background-color: #abd3c6;
+  }
+  /* Especificidad: 001 */
+  h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+  }
+  /* Especificidad: 001 */
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  /* Especificidad: 001 */
+  h4 {
+      font-size: 1em;
+      text-align: center;
+  }  
+  /* Especificidad: 001 */
+  section {
+    text-align: center;
+    padding: 1em;
+  }
+  /* Especificidad: 002 */
+  fieldset{
+    margin: 1.5em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Especificidad: 001 */
+  li {
+    text-align: start;
+  }
+  /* ---------------- FOOTER ---------------- */
+  /* Especificidad: 001 */
+  footer {
+    border-color: #ffdfb9;
+    border-style: solid;
+    border-width: 0.5em;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #000000;
+    background-color: #abd3c6;
+    text-align: center;
+  }
+  
+  /* ---------------- ENLACES ---------------- */
+  /* Especificidad: 002 */
+  a:link,
+  a:visited {
+    color: #000000; /* Recibe un warning debido a que hereda el color de fondo del elemento contenedor donde están (párrafo, footer...) */
+    font-weight: bold;
+  }
+  /* Especificidad: 001 */
+  a:hover {
+    color: #2d1c8c;
+    font-weight: bold;
+  }
+ 
